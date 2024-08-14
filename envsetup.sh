@@ -1,4 +1,5 @@
 #!/bin/bash
+apt install python3.11-venv
 cd app
 if [ -d "env" ]
 then
