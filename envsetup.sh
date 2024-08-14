@@ -1,14 +1,14 @@
 #!/bin/bash
-
-if [-d "app/env"]
+cd app
+if [-d "env"]
 then
     echo "Python virtual env exixts"
 else
-    python3 -m venv app/env
+    python3 -m venv env
 fi
 
 echo $PWD
-source app/env/bin/activate
+source env/bin/activate
 
 pip install -r requirements.txt
 
