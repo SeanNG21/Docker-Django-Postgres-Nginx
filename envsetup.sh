@@ -4,7 +4,7 @@ if [ -d "env" ]
 then
     echo "Python virtual env exixts"
 else
-    python3 -m venv env
+    python3.11 -m venv env
 fi
 
 echo $PWD
