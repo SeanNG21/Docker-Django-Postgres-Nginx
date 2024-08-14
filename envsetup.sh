@@ -1,6 +1,6 @@
 #!/bin/bash
 cd app
-if [-d "env"]
+if [ -d "env" ]
 then
     echo "Python virtual env exixts"
 else
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 
 
-if [-d "logs"]
+if [ -d "logs" ]
 then
     echo "log folder exixts"
 else
