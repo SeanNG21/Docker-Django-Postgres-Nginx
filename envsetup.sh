@@ -1,6 +1,4 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install python3.11
 cd app
 if [ -d "env" ]
 then
